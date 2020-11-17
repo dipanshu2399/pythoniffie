@@ -1,6 +1,6 @@
 ## Compare two numbers a and b, and print which is greater or equal.
-a = 100
-b = 33
+a = int(input())
+b = int(input())
 if b > a:
   print("b is greater than a")
 elif a == b:
